@@ -1,0 +1,17 @@
+#pragma once
+  
+#include <pebble.h>
+#include "Tile.h"
+
+  
+const uint32_t TILE_SIZE;
+const uint32_t TILE_SIZE_HALF;
+#define BOARD_WIDTH 26
+#define BOARD_HEIGHT 19
+#define BOARD_ARRAY_LENGTH 494 /*BOARD_WIDTH * BOARD_HEIGHT*/
+uint32_t CAMERA_WIDTH;
+uint32_t CAMERA_HEIGHT;
+uint32_t CAMERA_WIDTH_HALF;
+uint32_t CAMERA_HEIGHT_HALF;
+#define BOARD_WIDTH_PX BOARD_WIDTH*TILE_SIZE
+#define BOARD_HEIGHT_PX BOARD_HEIGHT*TILE_SIZE

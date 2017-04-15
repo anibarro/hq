@@ -1,0 +1,30 @@
+{
+    "author": "Eduardo A\u00f1\u00edbarro",
+    "dependencies": {},
+    "keywords": [],
+    "name": "heroquest",
+    "pebble": {
+        "displayName": "HeroQuest",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/tiles.png",
+                    "name": "TILES_IMAGE",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "7fd8c8bc-1e30-4b3d-ba19-82236f63ca07",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
